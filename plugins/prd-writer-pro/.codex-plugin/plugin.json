@@ -1,0 +1,26 @@
+{
+  "name": "prd-writer-pro",
+  "version": "1.0.0",
+  "description": "资深产品经理PRD协作技能 - 实体先行、四层规格展开、状态机完整、合规内建",
+  "author": {
+    "name": "aJinbeier",
+    "url": "https://github.com/aJinbeier"
+  },
+  "repository": "https://github.com/aJinbeier/prd-writer-pro",
+  "license": "MIT",
+  "keywords": ["prd", "product", "requirements", "documentation", "product-manager"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PRD协作专家",
+    "shortDescription": "与产品负责人共同撰写可直接交付开发的PRD，实体先行、四层规格展开、状态机完整",
+    "longDescription": "资深产品经理协作技能，覆盖实体定义、业务流程、页面字段交互规则四层展开、状态机、非功能性规格、合规要求、版本管理全流程。每次修改列变更清单，先备份再改。",
+    "developerName": "aJinbeier",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "brandColor": "#2563EB",
+    "defaultPrompt": [
+      "按照PRD协作专家规范帮我撰写产品需求文档",
+      "细化这个功能模块的PRD，按页面-字段-交互-规则四层展开"
+    ]
+  }
+}
