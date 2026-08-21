@@ -1,0 +1,20 @@
+{
+  "name": "prd-writer-pro-marketplace",
+  "interface": {
+    "displayName": "PRD协作专家"
+  },
+  "plugins": [
+    {
+      "name": "prd-writer-pro",
+      "source": {
+        "source": "local",
+        "path": "./plugins/prd-writer-pro"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
